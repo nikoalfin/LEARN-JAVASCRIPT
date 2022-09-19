@@ -1,8 +1,8 @@
 // let ariy=['fia','dea','filo',5,23,[4,7,6]];
 // // 1. ARRAY MEMANFGGIL                       ==================================
-// console.log(ariy[2]);
-// console.log(ariy[5][0]);
-// console.log(ariy);
+// // console.log(ariy[2]);
+// // console.log(ariy[5][0]);
+// // console.log(ariy);
 
 
 // // 2. MENAMPILKAN ISI ARRAY MENGGUNAKAN FOR  =================================
