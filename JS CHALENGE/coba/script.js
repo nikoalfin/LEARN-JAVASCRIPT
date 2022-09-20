@@ -1,9 +1,12 @@
 function myFunction(a,b){
+    let yu=new Object();
 for(p in a,b) {
-    let hus={[a[p]] :     b[p]};
-    console.log(hus);
-}
+    let hus={[a[p]] : b[p]};
+//  console.log(hus);
+    yu +=hus;
 
+}
+console.log(yu);
 };
 console.log(myFunction(['a','b','c'],[1,2,3]));
 
