@@ -1,15 +1,15 @@
 function myFunction(a,b){
-    let yu=new Object();
-for(p in a,b) {
-    let hus={[a[p]] : b[p]};
-//  console.log(hus);
-    yu +=hus;
+ return Math.abs(a.getTime() - b.getTime())/(1000*3600*24);
 
+
+//  atau
+//    const dif = Math.abs(a - b);
+//    return dif / 1000 / 60 / 60 / 24
 }
-console.log(yu);
-};
-console.log(myFunction(['a','b','c'],[1,2,3]));
 
-// myFunction(['a','b','c'],[1,2,3])         Expected {a:1,b:2,c:3}
-// myFunction(['w','x','y','z'],[10,9,5,2])  Expected {w:10,x:9,y:5,z:2}
-// myFunction([1,'b'],['a',2])               Expected {1:'a',b:2}
+// console.log(myFunction(new Date('2020-06-11'), new Date('2020-06-01')));
+console.log(myFunction(new Date('2000-01-01'), new Date('2020-06-01')));
+
+// myFunction(new Date('2020-06-11'), new Date('2020-06-01')) Expected 10
+// myFunction(new Date('2000-01-01'), new Date('2020-06-01')) Expected 7457
+

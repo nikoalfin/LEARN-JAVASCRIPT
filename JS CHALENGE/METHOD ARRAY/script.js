@@ -313,3 +313,5 @@ function myFunction(arr,num){
 
 
 //  17. ==========================================================
+// method reduce((nilaiawal,nilai sebelumnya)=>nilaiawal+nilaisebelumnya,0)
+// 0 berfungsi = untuk menentukan nilai awal berapa
