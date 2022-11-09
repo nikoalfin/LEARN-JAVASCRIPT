@@ -79,8 +79,6 @@ sectionB.replaceChild(h2Baru,par);
 
 
 
-
-
 h2Baru.style.backgroundColor='lightblue'
 lagi.style.backgroundColor='lightblue'
 pBaru.style.backgroundColor='lightblue'
